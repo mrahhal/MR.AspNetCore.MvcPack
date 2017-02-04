@@ -33,6 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A991AD56-2
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MR.AspNetCore.MvcPack.Tests", "test\MR.AspNetCore.MvcPack.Tests\MR.AspNetCore.MvcPack.Tests.xproj", "{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DF5967DF-3FA0-4BD3-B2B8-D2058CB6D689}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Basic", "Basic\Basic.xproj", "{0653B2EE-5CF7-4166-8B93-A83C30603BE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0653B2EE-5CF7-4166-8B93-A83C30603BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0653B2EE-5CF7-4166-8B93-A83C30603BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0653B2EE-5CF7-4166-8B93-A83C30603BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0653B2EE-5CF7-4166-8B93-A83C30603BE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +62,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B6D96953-8B24-4E0B-B54E-C0517B3A14B4} = {DC4718A7-3225-4C9A-9ECF-96384FAAD67D}
 		{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190} = {A991AD56-2D17-4401-BFF2-A73B1190E31D}
+		{0653B2EE-5CF7-4166-8B93-A83C30603BE0} = {DF5967DF-3FA0-4BD3-B2B8-D2058CB6D689}
 	EndGlobalSection
 EndGlobal
