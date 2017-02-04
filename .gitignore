@@ -1,0 +1,14 @@
+*.suo
+*.user
+*.lock.json
+
+.vs/
+[Bb]in/
+[Oo]bj/
+artifacts/
+node_modules/
+**/wwwroot/lib/
+
+tools/
+
+samples/Benchmark/BenchmarkDotNet.Artifacts/
