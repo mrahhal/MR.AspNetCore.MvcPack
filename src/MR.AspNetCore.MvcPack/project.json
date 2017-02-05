@@ -1,5 +1,5 @@
 ﻿{
-  "version": "0.1.0-*",
+  "version": "0.1.1-*",
   "description": "A better way for writing controller action filters, inspired by rails.",
   "authors": [
     "Mohammad Rahhal"
