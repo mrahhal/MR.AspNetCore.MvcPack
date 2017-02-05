@@ -6,3 +6,5 @@ AppVeyor | Travis
 
 [![NuGet version](https://img.shields.io/nuget/v/MR.AspNetCore.MvcPack.svg)](https://www.nuget.org/packages/MR.AspNetCore.MvcPack)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+A better way for writing controller action filters, inspired by rails.

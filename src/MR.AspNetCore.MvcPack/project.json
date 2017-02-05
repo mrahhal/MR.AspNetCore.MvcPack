@@ -1,13 +1,14 @@
 ﻿{
   "version": "0.1.0-*",
-  "description": "MvcPack",
+  "description": "A better way for writing controller action filters, inspired by rails.",
   "authors": [
     "Mohammad Rahhal"
   ],
   "packOptions": {
     "tags": [
       "aspnetcore",
-      "mvc"
+      "mvc",
+      "filters"
     ],
     "projectUrl": "https://github.com/mrahhal/MR.AspNetCore.MvcPack",
     "licenseUrl": "https://github.com/mrahhal/MR.AspNetCore.MvcPack/blob/master/LICENSE.txt"
