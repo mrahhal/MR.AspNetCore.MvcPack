@@ -13,7 +13,7 @@ namespace Basic.Controllers
 		{
 			public Pack()
 			{
-				BeforeAction(x => x.AuthorizeSome, null, null);
+				BeforeAction(x => x.AuthorizeSome);
 			}
 		}
 

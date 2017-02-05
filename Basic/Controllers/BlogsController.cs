@@ -35,7 +35,7 @@ namespace Basic.Controllers
 
 		private Task DoSomething(ActionExecutingContext context)
 		{
-			Logger.LogInformation("Executing...");
+			Logger.LogInformation($"Executing {nameof(BlogsController.DoSomething)}...");
 			_some = "foo";
 			if (context.HttpContext.Request.Query.ContainsKey("404"))
 			{
