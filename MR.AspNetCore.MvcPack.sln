@@ -35,7 +35,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MR.AspNetCore.MvcPack.Tests
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DF5967DF-3FA0-4BD3-B2B8-D2058CB6D689}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Basic", "Basic\Basic.xproj", "{0653B2EE-5CF7-4166-8B93-A83C30603BE0}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Basic", "samples\Basic\Basic.xproj", "{0653B2EE-5CF7-4166-8B93-A83C30603BE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
