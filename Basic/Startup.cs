@@ -9,12 +9,22 @@ namespace Basic
 	{
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddMvc();
+			services.AddMvc().InitializeMvcPack();
+
+			services.AddMvcPack();
 		}
 
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
 		{
-			loggerFactory.AddConsole();
+			loggerFactory.AddConsole((str, l) =>
+			{
+				if (str.Contains("Microsoft"))
+				{
+					return false;
+				}
+
+				return l >= LogLevel.Information;
+			});
 
 			if (env.IsDevelopment())
 			{
