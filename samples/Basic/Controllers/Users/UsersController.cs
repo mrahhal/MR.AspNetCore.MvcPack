@@ -20,13 +20,12 @@ namespace Basic.Controllers.Users
 			{
 				SkipBeforeAction(x => x.AuthorizeSome);
 
-				BeforeAction(
-					x => x.Some,
-					only: L(nameof(UsersController.Show)));
+				BeforeAction(x => x.Some, only: L(
+					nameof(UsersController.Show)));
 
-				BeforeAction(
-					x => x.SetUser,
-					only: L(nameof(UsersController.Get), nameof(UsersController.Update)));
+				BeforeAction(x => x.SetUser, only: L(
+					nameof(UsersController.Get),
+					nameof(UsersController.Update)));
 			}
 		}
 

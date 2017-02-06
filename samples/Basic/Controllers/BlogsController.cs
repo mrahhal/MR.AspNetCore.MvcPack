@@ -15,9 +15,8 @@ namespace Basic.Controllers
 		{
 			public Pack()
 			{
-				BeforeAction(
-					x => x.DoSomething,
-					only: L(nameof(BlogsController.Action1)));
+				BeforeAction(x => x.DoSomething, only: L(
+					nameof(BlogsController.Action1)));
 			}
 		}
 
