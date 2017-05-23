@@ -4,7 +4,6 @@
 		<TargetFrameworks>netcoreapp1.1;net46</TargetFrameworks>
 		<RootNamespace>MR.AspNetCore.MvcPack</RootNamespace>
 		<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-		<RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">1.1.1</RuntimeFrameworkVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
