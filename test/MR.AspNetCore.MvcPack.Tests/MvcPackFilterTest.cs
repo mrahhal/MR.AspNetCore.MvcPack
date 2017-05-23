@@ -133,7 +133,7 @@ namespace MR.AspNetCore.MvcPack
 
 		private static ActionContext CreateActionContext()
 		{
-			return new ActionContext(Mock.Of<HttpContext>(), new RouteData(), new ControllerActionDescriptor()
+			return new ActionContext(new DefaultHttpContext(), new RouteData(), new ControllerActionDescriptor()
 			{
 				ActionName = "Action1"
 			});

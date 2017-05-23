@@ -1,0 +1,18 @@
+<Project>
+
+	<Import Project="version.props" />
+
+	<PropertyGroup Label="Build">
+		<TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+		<NoWarn>$(NoWarn);1591;1587</NoWarn>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Package">
+		<Product>MR.AspNetCore.MvcPack</Product>
+		<Authors>Mohammad Rahhal @mrahhal</Authors>
+		<PackageProjectUrl>https://github.com/mrahhal/MR.AspNetCore.MvcPack</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/mrahhal/MR.AspNetCore.MvcPack/blob/master/LICENSE.txt</PackageLicenseUrl>
+	</PropertyGroup>
+
+</Project>
