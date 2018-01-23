@@ -15,8 +15,7 @@ namespace MR.AspNetCore.MvcPack
 
 		public ControllerFilterModel GetModelForControllerType(Type controllerType)
 		{
-			ControllerFilterModel model;
-			if (_hash.TryGetValue(controllerType, out model))
+			if (_hash.TryGetValue(controllerType, out var model))
 			{
 				return model;
 			}

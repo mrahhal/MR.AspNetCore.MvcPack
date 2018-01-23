@@ -40,7 +40,7 @@ namespace MR.AspNetCore.MvcPack
 				var actionName = (context.ActionDescriptor as ControllerActionDescriptor).ActionName;
 
 				var filters = filterModel.Filters;
-				for (int i = 0; i < filters.Count; i++)
+				for (var i = 0; i < filters.Count; i++)
 				{
 					var filter = filters[i];
 					var match = FilterHelper.Matches(actionName, filter);
