@@ -67,6 +67,10 @@ Rails solves this in a great way, a major part of it is due to the expressivenes
 
 Check the samples for more info.
 
+## NestedRouting
+
+Using this together with [NestedRouting](http://github.com/mrahhal/MR.AspNetCore.NestedRouting) will give you a great way for organizing your controllers.
+
 ## Samples
 
 Check out the [`samples`](samples) under "samples/" for more practical use cases.
