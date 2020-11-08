@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Basic
 {
@@ -7,9 +9,19 @@ namespace Basic
 	{
 		public static void Main(string[] args)
 		{
-			var host = BuildWebHost(args);
-			host.Run();
+			CreateHostBuilder(args).Build().Run();
 		}
+
+		public static IHostBuilder CreateHostBuilder(string[] args) =>
+			Host.CreateDefaultBuilder(args)
+				.ConfigureLogging(logging =>
+				{
+					logging.AddConsole();
+				})
+				.ConfigureWebHostDefaults(webBuilder =>
+				{
+					webBuilder.UseStartup<Startup>();
+				});
 
 		public static IWebHost BuildWebHost(string[] args) =>
 			WebHost.CreateDefaultBuilder(args)

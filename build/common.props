@@ -3,7 +3,7 @@
 	<Import Project="version.props" />
 
 	<PropertyGroup Label="Build">
-		<TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+		<TargetFrameworks>net461;netstandard2.1;netcoreapp3.1</TargetFrameworks>
 		<NoWarn>$(NoWarn);1591;1587</NoWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
