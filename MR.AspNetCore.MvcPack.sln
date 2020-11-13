@@ -1,17 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC4718A7-3225-4C9A-9ECF-96384FAAD67D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FFF2D640-DBF3-4B93-A242-06E94A80F0FF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{FFF2D640-DBF3-4B93-A242-06E94A80F0FF}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		.travis.yml = .travis.yml
 		appveyor.yml = appveyor.yml
+		global.json = global.json
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -21,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E243B2DB
 		build.ps1 = build.ps1
 		build.sh = build.sh
 		build\common.props = build\common.props
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
 		build\index.cake = build\index.cake
 		build\util.cake = build\util.cake
 		build\version.cake = build\version.cake
@@ -63,5 +69,8 @@ Global
 		{B6D96953-8B24-4E0B-B54E-C0517B3A14B4} = {DC4718A7-3225-4C9A-9ECF-96384FAAD67D}
 		{95AE9F90-35AD-4E2E-BBA4-8F5F32D3C190} = {A991AD56-2D17-4401-BFF2-A73B1190E31D}
 		{0653B2EE-5CF7-4166-8B93-A83C30603BE0} = {DF5967DF-3FA0-4BD3-B2B8-D2058CB6D689}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1822A6AB-24D8-40CC-B874-A140F7FFC244}
 	EndGlobalSection
 EndGlobal

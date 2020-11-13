@@ -1,0 +1,20 @@
+﻿<Project>
+
+  <Import Project="build\version.props" />
+
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <Product>MR.AspNetCore.MvcPack</Product>
+    <Description>A better way for writing controller action filters, inspired by rails.</Description>
+    <RepositoryUrl>https://github.com/mrahhal/MR.AspNetCore.MvcPack</RepositoryUrl>
+    <Authors>Mohammad Rahhal</Authors>
+    <PackageProjectUrl>https://github.com/mrahhal/MR.AspNetCore.MvcPack</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>aspnetcore;mvc;filters</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AspNetCoreVersion>3.1.0</AspNetCoreVersion>
+  </PropertyGroup>
+
+</Project>
